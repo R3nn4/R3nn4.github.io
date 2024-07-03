@@ -1,0 +1,340 @@
+html{
+    background-color: #0D0D0D;
+}
+
+aside{
+    ul{
+        position: absolute;
+        top: 5%;
+        right: 6%;
+        li{
+            color: #A68C7C;
+            padding-bottom: 6%;
+        }
+    }
+}
+
+
+
+img{
+    border-left: 10px solid;
+    border-bottom: 10px solid;
+    border-color:#829493 ;
+    border-radius: 20px;
+    border-bottom-left-radius: 25px;
+    position: absolute;
+    bottom: -10%;
+}
+
+header{
+    position: relative;
+    padding: 2%;
+    padding-bottom: 50%;
+
+    h1{
+        color: #733B1A;
+        font-size: 4em;
+    }
+    h2{
+        font-size: 2em;
+        color: #ebdac5;
+    }
+    h3{
+        position: absolute;
+        top: 52%;
+        right: 8%;
+        font-size: 1.9em;
+    }
+    h4{
+        font-size: 1.6em;
+    }
+}
+
+.Apresentacao{
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    text-align: right;
+    padding: 1%;
+    border-right: solid;
+    border-radius: 10px;
+    border-color: #8C6E5D;
+    max-width: 40%;
+    p{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.5em;
+    }
+}
+
+nav{
+    position: fixed;
+    top: 10%;
+    left: 1%;
+    ul{
+        li{
+            width: 100%;
+            background-color: #829493;
+            border-radius: 7px;
+            margin-bottom: 10%;
+            padding: 10%;
+        }
+    }
+}
+
+/*
+.Educacao{
+    position: relative;
+    max-width: 70%;
+    border-radius: 10px;
+    background-color: #ebdac5;
+    padding: 1%;
+    padding-left: 2%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    h1{
+        padding-left: 2%;
+        padding-bottom: 40%;
+        padding-top: 2%;
+        max-width: 20%;
+        color: #0D0D0D;
+        background-color: #A68C7C;
+        border-radius: 10px;
+    }
+
+    .Texto_Educacao{
+        padding: 2%;
+        display: flex;
+        position: absolute;
+        top:10%;
+        p{
+            color: #0D0D0D;
+        }
+    }
+
+    .Escola{
+        padding-right: 4%;
+    }
+}
+*/
+
+.Educacao{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    position: relative;
+    background-color: #ebdac5;
+    border-radius: 30px;
+    padding: 2%;
+    max-width: 80%;
+    h1{
+        font-size: 3em;
+        position: absolute;
+        left: 77%;
+        top: -26%;
+        display: flex;
+        color:#ebdac5;
+    }
+    .Texto_Educacao{
+        display: flex;
+
+        .Escola{
+            font-size: 1.2em;
+            padding: 2%;
+            padding-top: 5%;
+            background-color: #8C6E5D;
+            flex-grow: 2;
+            margin-left: 1%;
+            margin-right: 1%;
+            border-radius: 10%;
+        }
+        .Sagrado{
+            font-size: 1.2em;
+            padding: 2%;
+            padding-top: 5%;
+            background-color: #829493;
+            flex-grow: 1;
+            border-radius: 30px;
+            p{
+                color:#733B1A;
+            }
+        }
+    }
+}
+
+.Certificacoes{
+    margin-bottom: 20%;
+    font-size: 1.2em;
+    th{
+        color:#ebdac5;
+    }
+}
+
+.Certificados{
+    font-size: 1.3em;
+}
+
+.Experiencia{
+    position: relative;
+    .InfosEstagio{
+        text-align: right;
+        position: absolute;
+        right: 5%;
+        top: -5%;
+    }
+    .ONS{
+        p{
+            font-size: 1.5em;
+        }
+        margin-top: 5%;
+        ol{
+            max-width: 60%;
+            li{
+                margin-bottom: 2%;
+                font-size: 1.3em;
+            }
+        }
+    }
+}
+
+
+.Habilidades{
+    margin-bottom: 15%;
+    margin-top: 20%;
+    position: relative;
+    font-size: 1.2em;
+
+    h1{
+        position: absolute;
+        top: -32%;
+        right: 14%;;
+        color: #0D0D0D;
+        background-color: #ebdac5;
+        padding: 1%;
+        border-radius: 10px;
+        max-width: 20%;
+    }
+}
+
+.TextoHabilidades{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .Ferramentas{
+        padding: 2%;
+        background-color: #829493;
+        border-radius: 15px;
+        dt{
+            color: #733B1A;
+        }
+        dd{
+            color: #ebdac5;
+        }
+    }
+
+    .Proficiencias{
+        margin-left: 1%;
+        padding: 2%;
+        background-color: #A68C7C;
+        border-radius: 15px;
+        height: 50%;
+        dt{
+            color: #733B1A;
+        }
+        dd{
+            color:#ebdac5;
+        }
+    }
+
+    .Linguagens{
+        margin-left: 1%;
+        height: 20%;
+        padding: 2%;
+        background-color:#733B1A;
+        border-radius: 15px;
+        h2{
+            color: #ebdac5;   
+        }
+    }
+}
+
+.Hobbies{
+    font-size: 1.3em;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    margin-left: 50%;
+    max-width: 40%;
+    margin-bottom: 10%;
+    h1{
+        padding: 1%;
+        padding-right: 3%;
+        color: #0D0D0D;
+        background-color: #ebdac5;
+        text-align: right;
+        border-radius: 10px;
+    }
+    p{
+        text-align: right;
+    }
+}
+
+.Contato{
+    position: absolute;
+    padding-left: 1%;
+    padding-right: 1%;
+    top: 380%;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: #829493;
+    border-radius: 10px;
+}
+
+body{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+h1{
+    color: #ebdac5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color: #733B1A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3, h4{
+    color: #dfa583;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    color: #ebdac5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: #A68C7C;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li, dt, dd{
+    color: #dfa583;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    border: 1px solid;
+    border-color: #8C6E5D;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th, td{
+    border: 1px solid;
+    padding: 1%;
+    color: #A68C7C;
+    border-color: #8C6E5D;
+    font-family: 'Times New Roman', Times, serif;
+}
